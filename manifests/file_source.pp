@@ -1,3 +1,3 @@
 file { '/etc/motd':
-  source => '/examples/files/motd.txt',
+  source => '/root/production/files/motd.txt',
 }
