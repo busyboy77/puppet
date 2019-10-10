@@ -1,0 +1,4 @@
+package {'finger':
+ensure => installed,
+}
+
