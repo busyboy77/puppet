@@ -1,7 +1,7 @@
 package { 'ntp':
 ensure => installed,
 }
-service {'ntp':
+service {'ntpd':
 ensure => 'running',
 hasrestart => true,
 pattern => 'ntpd',
