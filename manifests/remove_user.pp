@@ -1,3 +1,0 @@
-user {'gnomen':
-ensure => absent,
-}
