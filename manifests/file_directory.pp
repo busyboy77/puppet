@@ -3,6 +3,6 @@ file { '/etc/config_dir':
   owner => 'nmr',
   group => 'nmr',
   mode => '777',
-  source => '/root/puppet/files/config_dir',
+  source => '/root/production/files/config_dir',
   recurse => 'true',
 }
