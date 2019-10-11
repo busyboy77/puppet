@@ -1,0 +1,5 @@
+notice($facts['kernel'])
+notice("The main Operating System",$facts['os'])
+notice("The Operating System Architecture is",$facts['os']['architecture'])
+notice("The Operating System CodeName",$facts['os']['distro']['codename'])
+notice("The Operating System Major Release Name",$facts['os']['release']['major'])
